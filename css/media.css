@@ -1,0 +1,58 @@
+@media screen and (max-width: 1296px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 964px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2, p {
+        font-size: 2rem;
+    }
+    main > form {
+        width: 75%;
+        text-align: center;
+    }
+    main > form input {
+        width: 90%;
+    }
+    main > form button {
+        width: 90%;
+        margin: 0;
+        
+    }
+    main > div  {
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 90%;
+        align-self: center;
+        margin: 4rem auto;
+        text-align: center;
+        padding: 2rem 0 0 0;
+    }
+    h2, p {
+        font-size: 1.5rem;
+    }
+    main > form {
+        height: fit-content;
+        margin: 2rem auto;
+    }
+    main > div {
+        height: 20rem;
+        display: block; 
+        margin: 0 auto;
+    }
+    span {
+        line-height: 1rem;
+        font-size: 6rem;
+    }
+    img {
+        height: 10rem;
+    }
+}
