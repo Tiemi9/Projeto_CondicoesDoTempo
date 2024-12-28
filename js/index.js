@@ -44,3 +44,9 @@ form === null || form === void 0 ? void 0 : form.addEventListener('submit', (eve
         console.log('Erro na obteção de dados');
     }
 }));
+input === null || input === void 0 ? void 0 : input.addEventListener('focus', (event) => {
+    input.setAttribute('placeholder', '');
+});
+input === null || input === void 0 ? void 0 : input.addEventListener('blur', (event) => {
+    input.setAttribute('placeholder', 'Insira sua localização...');
+});

@@ -41,3 +41,10 @@ form?.addEventListener('submit', async (event) => {
     }
     
 })
+
+input?.addEventListener('focus' , (event) => {
+    input.setAttribute('placeholder', '')
+})
+input?.addEventListener('blur' , (event) => {
+    input.setAttribute('placeholder', 'Insira sua localização...')
+})

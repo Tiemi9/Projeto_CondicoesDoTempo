@@ -2,3 +2,6 @@ main #search-form button:hover {
     background-color: gray;
     font-weight: bold;
 }
+section > div:hover, img:hover {
+    transform: scale(1.3);
+}
