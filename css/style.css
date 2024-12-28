@@ -75,7 +75,7 @@ main > section  button {
     background-color: rgb(17, 228, 119);
 }
 
-#wheather-data {
+#weather-data {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -83,6 +83,7 @@ main > section  button {
 }
 
 main > section > div p {
+    width: max-content;
     margin: 3rem 0 0;
 }
 span {

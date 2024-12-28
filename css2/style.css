@@ -50,17 +50,17 @@ main #search-form button {
     width: 7rem;
 }
 
-main #wheather-data {
+main #weather-data {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-main #wheather-data .wheather-info p {
+main #weather-data .weather-info p {
     font-size: 1.5rem;
 }
 
-main #wheather-data .wheather-info span {
+main #weather-data .weather-info span {
     
     font-size: 5rem;
     font-weight: bold;

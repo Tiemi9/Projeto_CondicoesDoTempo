@@ -23,7 +23,7 @@
         margin: 0;
         
     }
-    #wheather-data  {
+    #weather-data  {
         gap: 0;
     }
 }
@@ -43,7 +43,7 @@
         height: fit-content;
         margin: 2rem auto;
     }
-    #wheather-data {
+    #weather-data {
         height: 20rem;
         display: block;
         margin: 0 auto;
