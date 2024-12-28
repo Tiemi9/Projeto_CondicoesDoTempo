@@ -4,8 +4,6 @@ A proposta desse projeto foi criar uma aplicação web para obter dados meteorol
 
 ![preview](./assets/preview.png)
 
-[Clique aqui para acessar!!👈](https://tiemi9.github.io/Projeto_CondicoesDoTempo/)
-
 ## 🎮 Tecnologias utilizadas:
 
   - HTML
