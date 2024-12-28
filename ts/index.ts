@@ -16,7 +16,6 @@ form?.addEventListener('submit', async (event) => {
         alert('O local precisa ter, pelo menos, 3 caractéres. 😉')
         return
     }
-
     try {
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=bc75b3c4d0b39b75894a9c59513e59f4&lang=pt_br&units=metric`)
 
