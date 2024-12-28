@@ -1,8 +1,8 @@
-main > form button:hover {
+main > section button:hover {
     background-color: rgba(32, 178, 171, 0.74);
     font-weight: bold;
     cursor: pointer;
 }
-div > div:hover, img:hover {
+section > div:hover, img:hover {
     transform: scale(1.3);
 }
