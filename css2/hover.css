@@ -1,0 +1,4 @@
+main #search-form button:hover {
+    background-color: gray;
+    font-weight: bold;
+}

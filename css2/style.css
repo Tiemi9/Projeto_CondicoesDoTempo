@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Grenze", serif;
+    font-style: italic;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #222222;
+    color: antiquewhite;
+}
+
+main{
+    max-width: 800rem;
+    padding: 2rem;
+    border-radius: 2rem;
+
+    background-color: #333333;
+}
+
+main h1 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+main #search-form form {
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+main #search-form input {
+    height: 3rem;
+    padding-left: 1rem;
+    flex: 1;
+    border-radius: 1rem;
+
+    font-size: 1rem;
+}
+main #search-form button {
+    border-radius: 1rem;
+    width: 7rem;
+}
+
+main #wheather-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main #wheather-data .wheather-info p {
+    font-size: 1.5rem;
+}
+
+main #wheather-data .wheather-info span {
+    
+    font-size: 5rem;
+    font-weight: bold;
+}
